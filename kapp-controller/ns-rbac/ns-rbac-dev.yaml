@@ -7,7 +7,7 @@ spec:
   serviceAccountName: kapp-cluster-admin
   fetch:
     - git:
-        url: https://github.com/vmware-tanzu-labs/tdc-carvel-examples
+        url: https://github.com/ncarlson/tdc-carvel-examples
         ref: origin/main
         subPath: ns-rbac
   template:
